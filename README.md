@@ -11,6 +11,29 @@ using instructions from ChatGPT.
 - Decimal to hexadecimal conversion
 - Clear and delete functions
 
+## Screenshots of progress
+
+First ChatGPT-generated calculator
+
+![Screenshot of the calculator application](/screenshots/calculator.png "First ChatGPT-generated calculator")
+
+First ChatGPT-generated hexadecimal calculator
+
+![Screenshot of the hexadecimal calculator](/screenshots/hexcalculator1.png "First ChatGPT-generated hexadecimal calculator")
+
+Keys in better order by hacking the fxml file
+
+![Screenshot of the hexadecimal calculator](/screenshots/hexcalculator2.png "Better ChatGPT-generated hexadecimal calculator")
+
+More colorful ChatGPT-generated hexadecimal calculator
+
+![Screenshot of the next hexadecimal calculator](/screenshots/hexcalculator3.png "More colorful ChatGPT-generated hexadecimal calculator")
+
+More functions on the ChatGPT-generated hexadecimal calculator
+
+![Screenshot of the improved hexadecimal calculator](/screenshots/hexcalculator4.png "More functions on the ChatGPT-generated hexadecimal calculator")
+
+
 ## Installation
 
 To run the calculator application, you must have the following software installed on your machine:

@@ -1,0 +1,20 @@
+.operator-button {
+  -fx-background-color: #FFB347;
+}
+
+.border-pane {
+  -fx-border-color: black;
+  -fx-border-width: 1px;
+  -fx-border-style: solid;
+}
+
+.result-pane {
+  -fx-border-color: black;
+  -fx-border-width: 1px;
+  -fx-border-style: solid;
+  -fx-alignment: center-right; /* Set the text alignment to center-right */
+}
+
+.button-pane {
+  -fx-padding: 0 0 20 0; /* Set the padding to 0 pixels on the top, right, and left, and 20 pixels on the bottom */
+}

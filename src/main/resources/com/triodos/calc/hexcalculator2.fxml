@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/16"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.triodos.calc.HexCalculator2"
+          >
+
+  <center>
+    <Label fx:id="display" text="0" styleClass="result-pane" prefWidth="120"/>
+  </center>
+  <bottom>
+    <GridPane alignment="CENTER" hgap="5" vgap="5" styleClass="button-pane">
+      <Button text="D" onAction="#processNumber" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+      <Button text="E" onAction="#processNumber" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+      <Button text="F" onAction="#processNumber" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+      <Button text="A" onAction="#processNumber" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+      <Button text="B" onAction="#processNumber" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+      <Button text="C" onAction="#processNumber" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+      <Button text="7" onAction="#processNumber" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+      <Button text="8" onAction="#processNumber" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+      <Button text="9" onAction="#processNumber" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+      <Button text="4" onAction="#processNumber" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+      <Button text="5" onAction="#processNumber" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+      <Button text="6" onAction="#processNumber" GridPane.rowIndex="4" GridPane.columnIndex="2"/>
+      <Button text="1" onAction="#processNumber" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+      <Button text="2" onAction="#processNumber" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+      <Button text="3" onAction="#processNumber" GridPane.rowIndex="5" GridPane.columnIndex="2"/>
+      <Button text="0" onAction="#processNumber" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+
+      <Button text="+" onAction="#processOperator" GridPane.rowIndex="1" GridPane.columnIndex="3" styleClass="operator-button"/>
+      <Button text="-" onAction="#processOperator" GridPane.rowIndex="2" GridPane.columnIndex="3" styleClass="operator-button"/>
+      <Button text="*" onAction="#processOperator" GridPane.rowIndex="3" GridPane.columnIndex="3" styleClass="operator-button"/>
+      <Button text="/" onAction="#processOperator" GridPane.rowIndex="4" GridPane.columnIndex="3" styleClass="operator-button"/>
+      <Button text="=" onAction="#processOperator" GridPane.rowIndex="5" GridPane.columnIndex="3" styleClass="operator-button"/>
+
+      <Button text="C" onAction="#processClear" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+    </GridPane>
+  </bottom>
+</BorderPane>

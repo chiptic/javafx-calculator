@@ -1,0 +1,4 @@
+.button {
+  -fx-background-image: url("button-image.png");
+  -fx-background-size: cover;
+}
